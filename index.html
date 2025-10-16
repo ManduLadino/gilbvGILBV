@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canetada - Gerador de Projetos para Editais</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.15.0"
+  }
+}
+</script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo-link" title="Canetada - O Traço que Define o Digital">
+                <svg class="logo-svg" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Icon: a stylized fountain pen nib creating a mark -->
+                    <path d="M25 5 L10 45 L25 35 L40 45 L25 5 Z M22 20 A2 2 0 0 1 28 20" fill="var(--accent-color)"/>
+                    <!-- Text -->
+                    <text x="50" y="35" font-family="Playfair Display, serif" font-weight="700" font-style="italic" font-size="30" fill="white">
+                        Canetada
+                    </text>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="hero-text">
+            <h1>A solução definitiva para gerar projetos.</h1>
+            <p>De forma fácil, rápida e de acordo com as exigências de editais, prefeituras e governos.</p>
+            <button class="btn btn-hero open-app">ABRIR O APP</button>
+        </div>
+    </main>
+    
+    <section class="section" id="equipe">
+        <div class="container">
+            <h2 class="section-title">Equipe</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <h3>Gil BV</h3>
+                    <h4>Concepção, Alimentação e Projetos</h4>
+                    <p>Responsável pela visão estratégica, desenvolvimento conceitual e gestão de projetos. Especialista em articulação de parcerias e alinhamento com editais de inovação.</p>
+                    <a href="https://www.linkedin.com/in/gil-bv-168a7673/" target="_blank" rel="noopener noreferrer" class="linkedin-btn">Ver LinkedIn</a>
+                </div>
+                <div class="team-member">
+                    <h3>Ibo Amani Vitalino</h3>
+                    <h4>Designer e Programador</h4>
+                    <p>Expert em UI/UX e desenvolvimento de aplicações. Une design moderno à programação avançada, criando experiências digitais inovadoras e funcionais.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="linkedin-btn">Ver LinkedIn</a>
+                </div>
+                <div class="team-member">
+                    <h3>Marcelo Freitas</h3>
+                    <h4>Gestão Financeira</h4>
+                    <p>Especialista em estruturação financeira e sustentabilidade de projetos. Responsável por análises econômicas e viabilidade de investimentos.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="linkedin-btn">Ver LinkedIn</a>
+                </div>
+                <div class="team-member">
+                    <h3>Cezar Lago</h3>
+                    <h4>Designer e Artes</h4>
+                    <p>Responsável pela identidade visual, interface do usuário (UI/UX) e materiais gráficos que tornam a experiência do Canetada Digital simples e moderna.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="linkedin-btn">Ver LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="depoimentos">
+        <div class="container">
+            <h2 class="section-title">O que nossos usuários dizem</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <blockquote>
+                        "O Canetada transformou a maneira como elaboramos projetos. A plataforma é intuitiva e gera propostas completas em minutos, economizando um tempo precioso. Essencial para quem trabalha com editais!"
+                    </blockquote>
+                    <cite>— Joana Silva, Produtora Cultural</cite>
+                </div>
+                <div class="testimonial-card">
+                    <blockquote>
+                        "Finalmente uma ferramenta que entende as complexidades dos editais públicos. Com o Canetada, conseguimos aprovar nosso projeto na primeira tentativa. Recomendo a todos os gestores de projetos."
+                    </blockquote>
+                    <cite>— Carlos Andrade, Gestor de Projetos Sociais</cite>
+                </div>
+                <div class="testimonial-card">
+                    <blockquote>
+                        "Estava cético no início, mas o resultado foi impressionante. A clareza e a qualidade do texto gerado pela IA são de altíssimo nível. O Canetada já é parte indispensável do nosso fluxo de trabalho."
+                    </blockquote>
+                    <cite>— Mariana Costa, Empreendedora</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Informações Corporativas</h4>
+                    <p><strong>CNPJ:</strong> 55.277.141/0001-48</p>
+                    <p><strong>Fundação:</strong> 25/05/2024</p>
+                    <p><strong>Status:</strong> Empresa Ativa</p>
+                    <p><strong>Capital Social:</strong> R$ 342.000,00</p>
+                    <p><strong>Regime:</strong> Inova Simples (I.S.)</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Atividade Principal</h4>
+                    <p><strong>CNAE:</strong> 6204-0/00</p>
+                    <p>Consultoria em Tecnologia da Informação</p>
+                    <h4 class="margin-top">Localização</h4>
+                    <p>
+                        Rua 24 de Janeiro, 147 - Sala 6<br>
+                        Centro Norte, Teresina - PI, CEP: 64000-235<br>
+                        Contato: <a href="tel:+5586981221838">(86) 98122-1838</a> - <a href="mailto:gilbv@canetada.com">gilbv@canetada.com</a>
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h4>Missão Empresarial</h4>
+                    <p>Estabelecer parcerias estratégicas com empresas líderes no setor de tecnologia para expandir capacidades e oferecer soluções ainda mais robustas e inovadoras no mercado de projetos culturais, sociais e esportivos.</p>
+                    <h4 class="margin-top">Plataforma Digital</h4>
+                    <p><a href="https://canetada.com" target="_blank" rel="noopener noreferrer">canetada.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Canetada. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="app-container" class="app-container">
+        <div class="app-header">
+            <a href="#" id="app-back-btn" class="btn btn-outline">Voltar ao Site</a>
+        </div>
+        <iframe id="app-iframe" src="about:blank" title="Canetada App" allow="camera; microphone"></iframe>
+    </div>
+
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>
